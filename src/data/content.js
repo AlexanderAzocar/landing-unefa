@@ -1,3 +1,5 @@
+import { FileType } from "lucide-react";
+
 export const assignments = [
     {
         id: "trabajo-1",
@@ -138,11 +140,14 @@ export const assignments = [
     },
     {
         id: "trabajo-5",
-        title: "Proyecto Final Integrador",
+        title: "Proyecto Final Integrador (1)",
         description: "Propuesta completa de empresa que integra todos los aspectos institucionales, legales y financieros estudiados.",
         category: "Proyectos",
         previewImage: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&auto=format&fit=crop&q=60",
-        documentUrl: "#",
+        documentUrl: "/documents/primer-proyecto.pdf",
+        fileName: "primer-proyecto.pdf",
+        fileSize: "5 MB",
+        FileType: "PDF",
         fullContent: {
             introduction: "El Proyecto Final Integrador representa la culminación del proceso de aprendizaje en la asignatura de Planificación y Evaluación de Proyectos. En este trabajo, los estudiantes deben demostrar su capacidad para aplicar de manera integral todos los conocimientos adquiridos durante el semestre, desarrollando una propuesta empresarial completa y viable.\n\nEste proyecto debe articular coherentemente los aspectos de viabilidad económica, marco legal, estructura organizativa, impacto social y vinculación institucional, presentando un documento profesional que podría servir como base para la constitución real de una empresa.",
             objectives: [
@@ -153,7 +158,7 @@ export const assignments = [
                 "Presentar un proyecto defendible ante evaluadores"
             ],
             requirements: [
-                "Resumen ejecutivo (máximo 2 páginas)",
+                "Resumen ejecutivo",
                 "Estudio de mercado completo",
                 "Plan operativo y organizacional",
                 "Análisis legal y de permisología",
