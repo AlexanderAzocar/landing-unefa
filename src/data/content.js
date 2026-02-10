@@ -1,62 +1,3 @@
-export const legalDocuments = [
-    {
-        id: "crbv",
-        title: "Constitución de la República Bolivariana de Venezuela",
-        shortTitle: "CRBV",
-        description: "Carta magna que establece los principios fundamentales del Estado venezolano y los derechos ciudadanos.",
-        icon: "scale",
-        keyArticles: [
-            { number: "322", summary: "La seguridad de la Nación es competencia esencial del Estado." },
-            { number: "323", summary: "El Consejo de Defensa de la Nación como máximo órgano de consulta." },
-            { number: "326", summary: "La seguridad se fundamenta en la corresponsabilidad Estado-sociedad." },
-            { number: "328", summary: "La Fuerza Armada Nacional como institución esencialmente profesional." }
-        ],
-        documentUrl: "#"
-    },
-    {
-        id: "lofanb",
-        title: "Ley Orgánica de la Fuerza Armada Nacional Bolivariana",
-        shortTitle: "LOFANB",
-        description: "Regula la organización, funcionamiento y competencias de la Fuerza Armada Nacional Bolivariana.",
-        icon: "shield",
-        keyArticles: [
-            { number: "1", summary: "Objeto de la ley y ámbito de aplicación." },
-            { number: "3", summary: "Funciones de la FANB en la defensa integral." },
-            { number: "4", summary: "Principios que rigen la actuación de la FANB." },
-            { number: "19", summary: "Componentes de la Fuerza Armada Nacional." }
-        ],
-        documentUrl: "#"
-    },
-    {
-        id: "plan-patria",
-        title: "Plan de la Patria 2025-2031",
-        shortTitle: "Plan de la Patria",
-        description: "Plan de desarrollo económico y social que orienta las políticas públicas hacia el socialismo bolivariano.",
-        icon: "book",
-        keyArticles: [
-            { number: "Objetivo 1", summary: "Defender, expandir y consolidar la independencia nacional." },
-            { number: "Objetivo 2", summary: "Continuar construyendo el socialismo bolivariano." },
-            { number: "Objetivo 3", summary: "Convertir a Venezuela en potencia social, económica y política." },
-            { number: "Objetivo 5", summary: "Contribuir al desarrollo de una nueva geopolítica internacional." }
-        ],
-        documentUrl: "#"
-    },
-    {
-        id: "losn",
-        title: "Ley Orgánica de Seguridad de la Nación",
-        shortTitle: "LOSN",
-        description: "Establece el marco legal para garantizar la seguridad de la Nación y el desarrollo integral.",
-        icon: "landmark",
-        keyArticles: [
-            { number: "2", summary: "Definición de seguridad de la Nación." },
-            { number: "3", summary: "Defensa integral como conjunto de medidas." },
-            { number: "5", summary: "Corresponsabilidad entre Estado y sociedad civil." },
-            { number: "8", summary: "Zonas de seguridad y su protección." }
-        ],
-        documentUrl: "#"
-    }
-];
-
 export const assignments = [
     {
         id: "trabajo-1",
@@ -64,7 +5,10 @@ export const assignments = [
         description: "Estudio de factibilidad financiera para un proyecto de emprendimiento local, incluyendo proyecciones de ROI y punto de equilibrio.",
         category: "Corte 1",
         previewImage: "https://images.unsplash.com/photo-1554224155-6726b3ff858f?w=800&auto=format&fit=crop&q=60",
-        documentUrl: "#",
+        documentUrl: "/documents/analisis-viabilidad-economica.pdf",
+        fileName: "analisis-viabilidad-economica.pdf",
+        fileSize: "109 KB",
+        fileType: "PDF",
         fullContent: {
             introduction: "El análisis de viabilidad económica constituye una herramienta fundamental en la planificación de cualquier proyecto empresarial. Este estudio permite determinar si una idea de negocio tiene el potencial de generar beneficios económicos sostenibles a lo largo del tiempo, considerando factores como la inversión inicial requerida, los costos operativos, las proyecciones de ingresos y el retorno esperado de la inversión.\n\nEn el contexto venezolano actual, caracterizado por dinámicas económicas particulares, resulta especialmente relevante desarrollar análisis rigurosos que contemplen variables como la inflación, el acceso a financiamiento, los costos de importación y las oportunidades en el mercado local. Este trabajo explora metodologías prácticas para evaluar la factibilidad financiera de emprendimientos, proporcionando herramientas aplicables a diversos sectores productivos.",
             objectives: [
@@ -96,7 +40,10 @@ export const assignments = [
         description: "Desarrollo de un plan de negocios completo para la constitución de una cooperativa de servicios comunitarios.",
         category: "Corte 1",
         previewImage: "https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=800&auto=format&fit=crop&q=60",
-        documentUrl: "#",
+        documentUrl: "/documents/plan-cooperativa.pdf",
+        fileName: "plan-cooperativa.pdf",
+        fileSize: "97 KB",
+        fileType: "PDF",
         fullContent: {
             introduction: "Las cooperativas representan un modelo de organización empresarial basado en principios de solidaridad, democracia participativa y beneficio colectivo. En Venezuela, este tipo de organizaciones ha cobrado especial relevancia como alternativa para el desarrollo económico local y la generación de empleo digno en las comunidades.\n\nEste trabajo tiene como propósito guiar al estudiante en la elaboración de un plan de negocios integral para la constitución de una cooperativa de servicios comunitarios, abordando desde la concepción de la idea hasta los aspectos legales, administrativos y financieros necesarios para su puesta en marcha.",
             objectives: [
@@ -128,7 +75,10 @@ export const assignments = [
         description: "Investigación sobre los requisitos legales para constituir una C.A. en Venezuela, incluyendo trámites ante SENIAT.",
         category: "Corte 2",
         previewImage: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&auto=format&fit=crop&q=60",
-        documentUrl: "#",
+        documentUrl: "/documents/marco-legal-empresarial-venezuela.pdf",
+        fileName: "marco-legal-empresarial-venezuela.pdf",
+        fileSize: "166 KB",
+        fileType: "PDF",
         fullContent: {
             introduction: "El conocimiento del marco legal empresarial venezolano es indispensable para cualquier emprendedor o profesional que aspire a formalizar una actividad económica. La constitución de una Compañía Anónima (C.A.) implica cumplir con una serie de requisitos y trámites ante diversas instituciones del Estado, desde el Registro Mercantil hasta el SENIAT.\n\nEste trabajo de investigación tiene como finalidad que el estudiante comprenda de manera integral el proceso de constitución empresarial, identificando cada paso del procedimiento, los documentos requeridos, los costos asociados y los tiempos estimados para completar la formalización.",
             objectives: [

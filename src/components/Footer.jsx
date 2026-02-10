@@ -24,7 +24,7 @@ const Footer = () => {
                             </div>
                             <div>
                                 <h3 className="text-lg font-bold text-white">UNEFA</h3>
-                                <p className="text-xs text-slate-400">Defensa Integral</p>
+                                <p className="text-xs text-slate-400">Planificación y evaluación de proyectos</p>
                             </div>
                         </div>
                         <p className="text-sm text-slate-400 leading-relaxed max-w-sm">

@@ -142,7 +142,7 @@ function WorksSection() {
                         Trabajos y Asignaciones
                     </h2>
                     <p className="text-base md:text-lg text-slate-600 dark:text-slate-400 max-w-2xl mx-auto leading-relaxed">
-                        Colección de trabajos académicos desarrollados durante el curso de Defensa Integral,
+                        Colección de trabajos académicos desarrollados durante el curso de Planificación y evaluación de proyectos,
                         organizados por corte evaluativo para fácil acceso.
                     </p>
                 </motion.div>

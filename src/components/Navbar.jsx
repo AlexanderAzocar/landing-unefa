@@ -78,9 +78,6 @@ const Navbar = () => {
                             <p className="text-xl font-bold tracking-tight transition-colors text-slate-900 dark:text-white">
                                 UNEFA
                             </p>
-                            <p className="text-xs font-medium transition-colors text-slate-500 dark:text-slate-400">
-                                Defensa Integral
-                            </p>
                         </div>
                     </motion.a>
 
